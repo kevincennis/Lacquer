@@ -1,7 +1,7 @@
-# Lacquer
+Lacquer
+====
 
 [![Build Status](https://travis-ci.org/kevincennis/Lacquer.svg?branch=master)](https://travis-ci.org/kevincennis/Lacquer)
-====
 
 A simple base class for easier JS inheritance.
 
