@@ -1,0 +1,31 @@
+{
+  "name": "lacquer",
+  "version": "0.0.1",
+  "description": "Simple base class for easier inheritance",
+  "main": "lib/Lacquer.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kevincennis/Lacquer.git"
+  },
+  "author": "Kevin Ennis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevincennis/Lacquer/issues"
+  },
+  "homepage": "https://github.com/kevincennis/Lacquer",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "load-grunt-tasks": "^0.6.0",
+    "chai": "^1.9.2",
+    "grunt-contrib-jshint": "~0.7.1",
+    "mocha": "^1.21.4",
+    "grunt-mocha-test": "^0.12.1",
+    "jshint-stylish": "^1.0.0",
+    "istanbul": "^0.3.2",
+    "grunt-mocha-istanbul": "^2.1.0"
+  }
+}
