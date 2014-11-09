@@ -10,7 +10,7 @@ A simple base class for easier JS inheritance.
 ### Example
 
 ```js
-var Lacquer = require('Lacquer');
+var Lacquer = require('lacquer');
 var EventEmitter = require('events').EventEmitter;
 
 // Base class, inherits from EventEmitter
