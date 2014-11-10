@@ -110,6 +110,13 @@ describe( 'Lacquer', function() {
       chai.assert.isFalse( flag );
     });
 
+    it( 'should make `prototype.constructor` non-enumerable', function() {
+      var Class = Lacquer.extend({
+          constructor: Lacquer.prototype.constructor
+        });
+      chai.assert.isFalse( Class.prototype.propertyIsEnumerable('constructor') );
+    });
+
   });
 
   describe( 'instantiation', function() {

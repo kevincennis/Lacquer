@@ -1,6 +1,6 @@
 {
   "name": "lacquer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple base class for easier inheritance",
   "main": "lib/Lacquer.js",
   "scripts": {
