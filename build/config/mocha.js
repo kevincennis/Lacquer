@@ -5,10 +5,10 @@ module.exports = {
     options: {
       reportFormats: [ 'html' ],
       check: {
-        lines: 80,
-        statements: 80,
-        branches: 80,
-        functions: 80
+        lines: 100,
+        statements: 100,
+        branches: 100,
+        functions: 100
       },
       print: 'detail'
     }
