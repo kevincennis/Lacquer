@@ -1,5 +1,5 @@
 var chai = require('chai'),
-	Lacquer = require('../lib/Lacquer');
+  Lacquer = require('../lib/Lacquer');
 
 describe( 'Lacquer', function() {
 
